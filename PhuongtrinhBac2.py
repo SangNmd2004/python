@@ -27,3 +27,4 @@ if __name__ == "__main__":
     b = float(input("Nhập b: "))
     c = float(input("Nhập c: "))
     print(giai_phuong_trinh_bac_hai(a, b, c))
+    print(giai_phuong_trinh_bac_hai(a, b, c))
