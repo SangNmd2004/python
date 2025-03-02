@@ -10,7 +10,7 @@ def giai_phuong_trinh_bac_hai(a, b, c):
         else:
             return f"Phương trình có một nghiệm: x = {-c / b}"
     
-    delta = b**2 - 4*a*c
+    delta = b*b - 4*a*c
     if delta < 0:
         return "Phương trình vô nghiệm"
     elif delta == 0:
